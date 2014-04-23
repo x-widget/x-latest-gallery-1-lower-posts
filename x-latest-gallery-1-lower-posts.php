@@ -50,7 +50,7 @@ if ($list) { ?>
 		$no_content = "필고 갤러리 테마 No.1을 선택 하였습니다. <br />
 						메인 배너의 이미지는 <a style='font-weight: bold; color:#355c75;' href='".url_site_config()."'>사이트 관리</a>의 일반 설정에서 배너 이미지를 등록 해 주세요.";
 		for ( $i=1; $i<=2; $i++ ) { 
-			$img = "<img src='$latest_skin_url/img/no_bottom_$i.png'/>";
+			$img = "<img src='$widget_config[url]/img/no_bottom_$i.png'/>";
 	?>
 		<div class="post-item <? if ($i%2==1) echo 'left-item'?>">
 			<div class='post-image'>
